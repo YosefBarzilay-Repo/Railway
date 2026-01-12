@@ -6,6 +6,12 @@
     <title>Railway - Review Mode</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'%3E%3Cpath d='M12 2c-4 0-8 .5-8 4v9.5C4 17.43 5.12 18.5 6.5 18.5H7l-1 2h2l1-2h6l1 2h2l-1-2h.5c1.38 0 2.5-1.07 2.5-3V6c0-3.5-4-4-8-4zM7.5 14.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm9 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM18 10H6V6h12v4z'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        textarea:not(:focus) {
+            color: #333;
+            overflow: auto;
+        }
+    </style>
 </head>
 <body>
     <header class="app-header">
@@ -26,7 +32,7 @@
             <table id="reviewTable">
                 <thead>
                     <tr>
-                        <th>Test Name (Title)</th>
+                        <th>Title</th>
                         <th>Steps</th>
                         <th>Expected Results</th>
                     </tr>
